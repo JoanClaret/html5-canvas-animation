@@ -59,7 +59,7 @@ How it works?
 
 ### Options
 
-* The script is fully configurable (colors, lines, opacities, perspectives...) but you'll need to dive in to the script to adjust them. Download the files and start checking out the file 3d-lines-animation.js
+* The script is fully configurable (colors, lines, opacities, perspectives...) but you'll need to dive in to the code to adjust them. Download the files and start checking out the file 3d-lines-animation.js
 
 
 License
