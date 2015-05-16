@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>3D lines animation with three.js</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <style>
+            body {
+                background-color: #fff;
+                margin: 0px;
+                overflow: hidden;
+                font-family:arial;
+                color:#fff;
+            }
+            h1{
+                margin:0;
+            }
+
+            a {
+                color:#0078ff;
+            }
+            #canvas{
+                width:100%;
+                height:700px;
+                overflow: hidden;
+                position:absolute;
+                top:0;
+                left:0;
+                background-color: #1a1724;               
+            }
+            .canvas-wrap{
+                position:relative;
+                
+            }
+            div.canvas-content{
+                position:relative;
+                z-index:2000;
+                color:#fff;
+                text-align:center;
+                padding-top:30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="canvas-wrap">
+            <div class="canvas-content">
+                <h1>3D lines animation with three.js</h1>
+            </div>
+            <div id="canvas" class="gradient"></div>
+            
+        </div>
+        
+        <!-- Main library -->
+        <script src="js/three.min.js"></script>
+      
+        <!-- Helpers -->
+        <script src="js/projector.js"></script>
+        <script src="js/canvas-renderer.js"></script>
+
+        <!-- Adjustments -->
+        <script src="js/3d-lines-animation.js"></script>
+
+        <!-- Animated background color -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="js/color.js"></script>
+
+    </body>
+</html>
