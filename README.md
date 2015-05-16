@@ -11,7 +11,7 @@ HTML5, javascript, canvas, three.js, animation, colors.
 What is?
 -----------
 
-I took a prebuild three.js [example](http://threejs.org/examples/#canvas_lines) and put a fancy animated background color, adjust some parameters like number of lines, perspective and colors. Now is ready to use for everyone.
+I took a prebuild three.js [example](http://threejs.org/examples/#canvas_lines) and put a fancy animated background color, adjusted some parameters like number of lines, perspective and colors. Now is ready to use for everyone.
 
 Online demo
 -----------
