@@ -9,13 +9,62 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
   </head>
+   <style>
+        body {
+            background-color: #fff;
+            margin: 0px;
+        }
+        h1{
+            margin:0;
+        }
+
+        a {
+            color:#0078ff;
+        }
+        #canvas{
+            width:100%;
+            overflow: hidden;
+            position:absolute;
+            top:0;
+            left:0;
+            bottom:0;
+            right:0;
+            background-color: #1a1724;               
+        }
+        .page-header{
+            background:none;
+            color:#fff;
+            padding:100px 30px;
+        }
+        .canvas-wrap{
+            position:relative;
+            
+        }
+        div.canvas-content{
+            position:relative;
+            z-index:2000;
+            color:#fff;
+            text-align:center;
+        }
+        .btn{
+            background-color: rgba(255, 255, 255, 1);
+            color:#606c71;
+        }
+    </style>
+
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Html5-canvas-animation</h1>
-      <h2 class="project-tagline">3D lines animation with three.js</h2>
-      <a href="https://github.com/JoanClaret/html5-canvas-animation" class="btn">View on GitHub</a>
-      <a href="https://github.com/JoanClaret/html5-canvas-animation/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/JoanClaret/html5-canvas-animation/tarball/master" class="btn">Download .tar.gz</a>
+  <a href="https://github.com/joanclaret"><img style="z-index:3000;position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+
+    <section class="canvas-wrap">
+        <div class="canvas-content page-header">
+            <h1 class="project-name">3D lines animation with three.js</h1>
+             <h2 class="project-tagline">..and an animated background color</h2>
+             <a href="https://github.com/JoanClaret/html5-canvas-animation" class="btn">View on GitHub</a>
+            <a href="https://github.com/JoanClaret/html5-canvas-animation/zipball/master" class="btn">Download .zip</a>
+            <a href="https://github.com/JoanClaret/html5-canvas-animation/tarball/master" class="btn">Download .tar.gz</a>
+        </div>
+        <div id="canvas" class="gradient"></div>
+        
     </section>
 
     <section class="main-content">
@@ -33,11 +82,6 @@
 <a id="what-is" class="anchor" href="#what-is" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is?</h2>
 
 <p>I took a prebuild three.js <a href="http://threejs.org/examples/#canvas_lines">example</a> and put a fancy animated background color, adjust some parameters like number of lines, perspective and colors. Now is ready to use for everyone.</p>
-
-<h2>
-<a id="online-demo" class="anchor" href="#online-demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Online demo</h2>
-
-<p>Not ready</p>
 
 <h2>
 <a id="how-it-works" class="anchor" href="#how-it-works" aria-hidden="true"><span class="octicon octicon-link"></span></a>How it works?</h2>
@@ -112,5 +156,18 @@ THE SOFTWARE.
 
   
   </body>
+  <!-- Main library -->
+        <script src="js/three.min.js"></script>
+      
+        <!-- Helpers -->
+        <script src="js/projector.js"></script>
+        <script src="js/canvas-renderer.js"></script>
+
+        <!-- Adjustments -->
+        <script src="js/3d-lines-animation.js"></script>
+
+        <!-- Animated background color -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="js/color.js"></script>
 </html>
 
