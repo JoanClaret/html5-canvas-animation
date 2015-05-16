@@ -16,7 +16,7 @@ I took a prebuild three.js [example](http://threejs.org/examples/#canvas_lines) 
 
 Online demo
 -----------
-Not ready
+[Check out the online demo](http://joanclaret.github.io/html5-canvas-animation/)
 
 
 How it works?
