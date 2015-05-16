@@ -14,6 +14,12 @@ What is?
 I took a prebuild three.js [example](http://threejs.org/examples/#canvas_lines) and put a fancy animated background color, adjust some parameters like number of lines, perspective and colors. Now is ready to use for everyone.
 
 
+Preview
+-----------
+
+![html5 canvas animation preview](http://joanclaret.github.io/html5-canvas-animation/preview.png)
+
+
 Online demo
 -----------
 [Check out the online demo](http://joanclaret.github.io/html5-canvas-animation/)
