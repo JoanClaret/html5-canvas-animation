@@ -32,7 +32,7 @@ How it works?
 <script src="js/projector.js"></script>
 <script src="js/canvas-renderer.js"></script>
 
-<!-- Visualitzation sajustments -->
+<!-- Visualitzation adjustments -->
 <script src="js/3d-lines-animation.js"></script>
 
 <!-- Animated background color -->
