@@ -92,6 +92,7 @@ License
     
 Other useful  plugins
 ----------------------
+* [Maximum Characters limit warning](https://github.com/JoanClaret/max-char-limit-warning): Get a warning when the max char limit has been exceeded with a jQuery plugin
 * [jcSlider](http://joanclaret.github.io/jcSlider): A responsive slider jQuery plugin with CSS animations 
 * [slide and swipe menu](http://joanclaret.github.io/slide-and-swipe-menu): A sliding swipe menu that works with touchSwipe library. 
 * [jquery dynamic max height](http://joanclaret.github.io/jquery-dynamic-max-height) : Dynamic max height plugin for jQuery with CSS animation
